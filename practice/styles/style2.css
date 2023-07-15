@@ -1,0 +1,34 @@
+.navbar-brand {
+    padding-left: 120px;
+}
+
+.navbar-nav {
+    padding-right: 110px;
+}
+
+.nav-link {
+    color: grey;
+    padding-top: 120px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.scrollspy-example {
+    background-color: rgba(187, 198, 207, 0.356);
+    }
+
+
+.footerLink, .nav-link {
+    text-decoration: none !important;
+}
+
+.main, .footer {
+    margin-top: 20px;
+}
+
+
+
+
+

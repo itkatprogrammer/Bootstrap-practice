@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container-width {
+    margin: 1 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header__first-screen {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.first-screen__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: pre-line;
+    padding-left: 50px;
+    width: 40%;
+}
+
+.first-screen__pic {
+    width: 60%;
+}
+
+.first-screen__boyPic {
+    width: 90%;
+    margin-left: 60px
+}
+
+.headline-h2, 
+.opportunities__headline-h5 {
+    font-family: 'Geologica', sans-serif;
+}
+
+.paragraph,
+.link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    white-space: nowrap
+}
+
+.opportunities {
+    margin-top: 60px;
+}
+
+.opportunities__headline-h2 {
+    margin-bottom: 30px;
+}
+
+.opportunities__button-follow {
+    padding-left: 15px;
+}
+
+.text__nav_blue {
+    text-decoration: none !important;
+    color: #5222D0;
+    padding-top: 120px;
+}
+
+.text__nav_hover-black:hover {
+    color: #000;
+}
+
+.text__nav_black {
+    text-decoration: none !important;
+    color: #000;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+.text__nav_hover-blue:hover {
+    color: #5222D0;
+}
